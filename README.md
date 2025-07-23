@@ -28,6 +28,34 @@ The UI/UX design was created in Figma and can be viewed here:
 https://www.figma.com/design/lforOrtIl2Sne0hmRGK9hR/Online-book-store-website--Community-?node-id=0-1&p=f&t=DTb6GSrjMOBgDELK-0
 
 
+*Technologies Used
+- HTML5 for structure.
 
+- Tailwind CSS for styling and responsive design.
 
+- JavaScript for dynamic data fetching and handling.
 
+- Fetch API to communicate with external APIs.
+
+*How to Run
+- Clone or download the repository.
+
+- In the terminal, run: npm install
+
+- Open the index.html file in your browser.
+
+- The homepage will load the latest books dynamically.
+
+- You can interact with the site to view and post products.
+
+*Notes
+- This is my first time working with Tailwind CSS and integrating APIs using JavaScript Fetch.
+
+- The project was completed during my Full Stack internship at Midad Organisation.
+
+<img width="1348" height="608" alt="Screenshot (125)" src="https://github.com/user-attachments/assets/d911a515-f10a-4402-b53d-209dbb7a205e" />
+
+<img width="1333" height="618" alt="Screenshot (126)" src="https://github.com/user-attachments/assets/ea52a31d-913a-41e9-9e4d-dc7be4d07183" />
+<img width="864" height="645" alt="Screenshot (127)" src="https://github.com/user-attachments/assets/1ef425e6-0acb-4fbd-bccd-98aaa94199cb" />
+
+<img width="1360" height="592" alt="Screenshot (128)" src="https://github.com/user-attachments/assets/46d5c877-2026-4003-8f32-7a3b8cfa1015" />
