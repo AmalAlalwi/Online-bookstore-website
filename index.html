@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Haven</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="flex flex-col">
+    <!--Start Header-->
+    <header class="bg-[linear-gradient(to_right,_#FFC581_70%,_white_30%)] px-30">
+    <!--Start Navbar-->
+    <nav class="flex justify-around place-items-center bg-white w-[80vw] px-6 pt-5 top-0 fixed z-20">
+        <div class="flex flex-col"><img src="asset/images/logo.svg" alt="Logo" class="w-[40px] h-[50px]">
+        <p class="pb-2 font-bold">Book Haven</p>
+        </div>
+        <ul class="flex hidden md:flex lg:flex gap-10">
+            <li><a class="hover" href="">Home</a></li>
+            <li><a class="hover" href="">About us</a></li>
+            <li><a class="hover" href="books.html">Books</a></li>
+            <li><a class="hover" href="">Contact us</a></li>
+        </ul>
+        <div class="flex hidden md:flex lg:flex gap-8">
+        <button class="btn  px-6 py-2 text-white ">Sign in</button>
+        <button class="btn  px-8 py-2 text-white">Join us</button>
+        </div>
+    </nav>
+    <!--End Navbar-->
+    <!--Start Hero Section-->
+    <section class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-2 place-items-center justify-around pt-[100px]">
+        <div>
+         <h1 class="title">Find your next great<br> read at our online<br> book store</h1>
+         <p class="font-regular text-Dgrey  pb-6">Explore our current collection</p>
+         <div class="flex bg-grey rounded-md overflow-hidden ">
+  <div class="px-4 flex items-center text-Dgrey">
+       <svg width="33" height="23" viewBox="0 0 33 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M23.4167 14.5H21.9683L21.455 14.1625C23.3139 12.6926 24.3355 10.8159 24.3333 8.875C24.3333 7.26803 23.6344 5.69714 22.325 4.36099C21.0156 3.02484 19.1545 1.98344 16.977 1.36848C14.7995 0.753517 12.4035 0.592615 10.0918 0.906119C7.78024 1.21962 5.65689 1.99346 3.99032 3.12976C2.32374 4.26606 1.18879 5.71379 0.728981 7.28989C0.269174 8.86599 0.505163 10.4997 1.40711 11.9843C2.30905 13.469 3.83644 14.7379 5.79613 15.6307C7.75581 16.5235 10.0598 17 12.4167 17C15.3683 17 18.0817 16.2625 20.1717 15.0375L20.6667 15.3875V16.375L29.8333 22.6125L32.565 20.75L23.4167 14.5ZM12.4167 14.5C7.85167 14.5 4.16667 11.9875 4.16667 8.875C4.16667 5.7625 7.85167 3.25 12.4167 3.25C16.9817 3.25 20.6667 5.7625 20.6667 8.875C20.6667 11.9875 16.9817 14.5 12.4167 14.5Z" fill="#474747"/>
+</svg>
+  </div>
+  <input type="text" placeholder="Find your books here..." class="flex-grow px-4 py-3 bg-transparent outline-none text-Dgrey" />
+  <button class="btn-body rounded-r-md">Search</button>
+</div>
+        </div>
+     <div><img src="asset/images/hero-section.svg" alt="" ></div>
+    </section>
+    <!--End Hero Section-->
+    </header>
+    <!--end Header-->
+    <!--Start Main Section-->
+    
+    <main class="flex-grow">
+        <!--Start Books Section-->
+        <section class="px-30">
+            <h2 class="text-black text-4xl font-bold text-start py-10">Popular Books</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-10" id="productContainer">
+              <!--  <div><img src="asset/images/book1.svg" alt="book-1">
+                <p class="text-black text-xl">Snowbound</p>
+                <p class="text-Dgrey">James Leonard</p>
+                <p class="text-orange">Rs. 500</p>
+               </div> -->
+               
+            </div>
+        </section>
+       <!--End Books Section-->
+       <!--Start Buying Section-->
+       <section class="w-screen py-10 flex flex-col place-items-center bg-fill mt-5 px-30">
+        <h1 class="title">Start your reading journey</h1>
+        <p class="text-Dgrey pb-5">No subscription needed. Drive into a world of stories today.</p>
+        <button class="btn-body rounded-xl hover:animate-bounce ">Start Buying</button>
+       </section>
+       <!--End Buying Section-->
+       <!--Start Buyer’s feedback-->
+       <section class="py-10 px-30">
+        <h1 class="title text-center">Buyer’s feedback</h1>
+        <div class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 place-items-center">
+        <div class="flex flex-col gap-4 shadow-xl/30 p-10 ">
+            <div class="flex flex-row">
+                <img src="asset/images/person.svg" alt="person image" class="rounded-full bg-cover">
+                <div>
+                    <h2 class="text-2xl font-bold">Emily Thompson</h2>
+                    <img src="asset/images/Rating 2.svg" alt="Rating">
+                </div>
+            </div>
+            <p class="text-Dgrey">Great collection and cozy atmosphere.</p>
+        </div>
+       <div class="flex flex-col gap-4 shadow-xl/30 p-10 ">
+            <div class="flex flex-row">
+                <img src="asset/images/person.svg" alt="person image" class="rounded-full bg-cover">
+                <div>
+                    <h2 class="text-2xl font-bold">Emily Thompson</h2>
+                    <img src="asset/images/Rating 2.svg" alt="Rating">
+                </div>
+            </div>
+            <p class="text-Dgrey">Great collection and cozy atmosphere.</p>
+        </div>
+        <div class="flex flex-col gap-4 shadow-xl/30 p-10 ">
+            <div class="flex flex-row">
+                <img src="asset/images/person.svg" alt="person image" class="rounded-full bg-cover">
+                <div>
+                    <h2 class="text-2xl font-bold">Emily Thompson</h2>
+                    <img src="asset/images/Rating 2.svg" alt="Rating">
+                </div>
+            </div>
+            <p class="text-Dgrey">Great collection and cozy atmosphere.</p>
+        </div>
+       </section>
+       <!--End Buyer’s feedback-->
+    </main>
+    <!--End Main Section-->
+     <!--Start Footer Section-->
+    <footer class="flex flex-col bg-fill px-30 gap-4 py-10" >
+        <div class="flex flex-col place-items-center gap-10">
+          <h4 class="title">Subscribe our new offers !</h4>
+                 <div class="w-[30%] flex flex-col md:flex-row lg:flex-row  bg-grey rounded-md overflow-hidden place-items-center">
+            <div class="px-4 flex place-items-center justify-around text-Dgrey">
+                 <img src="asset/images/Mail.svg" alt="Mail Icon">
+            </div>
+            <input type="text" placeholder="Input your email" class="flex-grow px-4 py-3 bg-transparent  text-Dgrey" />
+            <button class="btn-body rounded-r-md">Subscribe</button>
+          </div>
+        </div>
+<div class="flex justify-around place-items-center gap-10 pt-5">
+    <div class="flex gap-4">
+        <img src="asset/images/logo.svg" alt="Logo">
+        <h1 class="title">Book Haven</h1>
+    </div>
+    
+    <ul class="flex hidden md:flex lg:flex gap-10">
+            <li>Prcing</li>
+            <li>About us</li>
+            <li>Book</li>
+            <li>Contact us </li>
+            <li>Features</li>
+            <li>Help Center</li>
+    </ul>
+
+</div>
+
+    </footer>
+    <!--End Footer Section-->
+    <script src="js/index.js"></script>
+</body>
+</html>

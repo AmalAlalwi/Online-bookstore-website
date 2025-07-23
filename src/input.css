@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@theme{
+    --color-fill:#FFC581;
+    --color-orange:#DB5408;
+    --color-grey:#CFCBCB;
+    --color-Dgrey:#474747;
+    --color-black:#000000;
+
+}
+.btn{
+    @apply bg-orange font-bold rounded-xl hover:animate-pulse;
+}
+.btn-body{
+    @apply bg-orange text-black px-7 py-3 font-bold ;
+}
+.title{
+    @apply text-black font-bold text-4xl;
+}
+.nav{
+    @apply flex justify-around place-items-center border-b border-solid border-grey w-[100%] fixed z-100 mt-5 top-0 left-0 ;
+}
+.hover{
+    @apply hover:animate-pulse hover:text-orange
+}

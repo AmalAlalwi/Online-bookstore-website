@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+      <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body>
+  <header>
+     <!--Start Navbar-->
+    <nav class="nav">
+        <div class="flex flex-col"><img src="asset/images/logo.svg" alt="Logo" class="w-[40px] h-[50px]">
+        <p class="pb-2 font-bold">Book Haven</p>
+        </div>
+        <ul class="flex hidden md:flex lg:flex gap-10 text-black text-xl">
+            <li><a class="hover" href="index.html">Home</a></li>
+            <li><a class="hover" href="">About us</a></li>
+            <li><a class="hover" href="book-description.html">Book</a></li>
+        </ul>
+        
+        <div class="flex hidden md:hidden  lg:flex gap-10">
+          <p class="text-black text-xl">Search</p>
+          <input type="text" class="p-1 bg-orange outline-none rounded-xl">
+        </div>
+        <div class="flex gap-10">
+          <p class="text-black text-xl">Account</p>
+          <img src="asset/images/cart.svg" alt="Cart">
+        </div>
+    </nav>
+    <!--End Navbar-->
+    </header>
+    <!--Start Main Section-->
+    <main>
+       <!--Start Categories Section-->
+    <section class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 mt-40 place-items-center gap-10 px-20">
+      <div><input type="checkbox" class="size-5">
+      <label for="">Romance</label>
+      </div>
+      <div><input type="checkbox" class="size-5">
+      <label for="">Sci-Fiction</label>
+      </div>
+      <div><input type="checkbox" class="size-5">
+      <label for="">Fantasy</label>
+      </div>
+      <div><input type="checkbox" class="size-5">
+      <label for="">Fiction</label>
+      </div>
+      <div><input type="checkbox" class="size-5">
+      <label for="">History</label>
+      </div>
+      <div><input type="checkbox" class="size-5">
+      <label for="">Horror</label>
+      </div>
+      <div><input type="checkbox" class="size-5">
+      <label for="">Thriller</label>
+      </div>
+      <div><input type="checkbox" class="size-5">
+      <label for="">Mystery</label>
+      </div>
+      <div><input type="checkbox" class="size-5">
+      <label for="">Magazine</label>
+      </div>
+      <div><input type="checkbox" class="size-5">
+      <label for="">Child-Books</label>
+      </div>
+      <div><input type="checkbox" class="size-5">
+      <label for="">Comedy</label>
+      </div>
+    </section>
+    <!--End Categories Section-->
+     <!--Start Books Section-->
+        <section class="px-20 py-5 mt-10  border-b border-solid border-grey">
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-10" id="productContainer">
+               
+            </div>
+        </section>
+       <!--End Books Section-->
+       <!--Start Sign Up Section-->
+       <section class="flex flex-col md:flex-row lg:flex-row gap-10 place-items-center justify-center p-20" >
+        <h1 class="text-orange text-4xl">Sign up for our new collection</h1>
+        <button class="btn text-black px-25 py-2">Sign Up</button>
+       </section>
+       <!--End Sign Up Section-->
+    </main>
+    <!--End Main Section-->
+     <!--Start Footer Section-->
+    <footer class="flex flex-col bg-fill px-20 gap-4 py-10" >
+        <div class="flex flex-col place-items-center gap-10">
+          <h4 class="title">Subscribe our new offers !</h4>
+                 <div class="w-[30%] flex flex-col md:flex-row lg:flex-row bg-grey rounded-md overflow-hidden place-items-center">
+            <div class="px-4 flex place-items-center justify-around text-Dgrey">
+                 <img src="asset/images/Mail.svg" alt="Mail Icon">
+            </div>
+            <input type="text" placeholder="Input your email" class="flex-grow px-4 py-3 bg-transparent  text-Dgrey" />
+            <button class="btn-body rounded-r-md">Subscribe</button>
+          </div>
+        </div>
+<div class="flex justify-around place-items-center gap-10 pt-5">
+    <div class="flex gap-4">
+        <img src="asset/images/logo.svg" alt="Logo">
+        <h1 class="title">Book Haven</h1>
+    </div>
+    
+    <ul class="flex hidden md:flex lg:flex gap-10">
+            <li>Prcing</li>
+            <li>About us</li>
+            <li>Book</li>
+            <li>Contact us </li>
+            <li>Features</li>
+            <li>Help Center</li>
+    </ul>
+
+</div>
+
+    </footer>
+    <!--End Footer Section-->
+    <script src="js/index.js"></script>
+</body>
+</html>
