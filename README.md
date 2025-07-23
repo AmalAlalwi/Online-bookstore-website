@@ -1,9 +1,9 @@
-Online Bookstore Website
+#Online Bookstore Website
 
 This is a simple, responsive online bookstore website built using HTML, Tailwind CSS, and JavaScript (Fetch API). This project was developed as part of a Full Stack Internship at Midad Organisation.
 
 
-Features
+##Features
 - Display a list of newly released books fetched dynamically from the IT Book Store API.
 
 - Add products (books) using data posting to the Fake Store API.
@@ -15,7 +15,7 @@ Features
 - Designed based on a Figma UI/UX prototype for consistent and user-friendly interface.
 
 
-APIs Used
+##APIs Used
 - Fetch new books data: https://api.itbook.store/1.0/new
 Retrieves a list of the latest books.
 
@@ -23,12 +23,12 @@ Retrieves a list of the latest books.
 Used to simulate adding a product to a store.
 
 
-Design Prototype
+##Design Prototype
 The UI/UX design was created in Figma and can be viewed here:
 https://www.figma.com/design/lforOrtIl2Sne0hmRGK9hR/Online-book-store-website--Community-?node-id=0-1&p=f&t=DTb6GSrjMOBgDELK-0
 
 
-*Technologies Used
+##Technologies Used
 - HTML5 for structure.
 
 - Tailwind CSS for styling and responsive design.
@@ -37,7 +37,7 @@ https://www.figma.com/design/lforOrtIl2Sne0hmRGK9hR/Online-book-store-website--C
 
 - Fetch API to communicate with external APIs.
 
-*How to Run
+##How to Run
 - Clone or download the repository.
 
 - In the terminal, run: npm install
@@ -48,7 +48,7 @@ https://www.figma.com/design/lforOrtIl2Sne0hmRGK9hR/Online-book-store-website--C
 
 - You can interact with the site to view and post products.
 
-*Notes
+##Notes
 - This is my first time working with Tailwind CSS and integrating APIs using JavaScript Fetch.
 
 - The project was completed during my Full Stack internship at Midad Organisation.
